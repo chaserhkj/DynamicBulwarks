@@ -35,7 +35,7 @@ if (attkWave > 12) then {
 	};
 };
 
-if (attkWave > 0) then {
+if ((attkWave > 15) and (attkWave % 4 == 0)) then {
 	_spwnVec = execVM "hostiles\spawnVehicle.sqf";
 	waitUntil {scriptDone _spwnVec};
 };
