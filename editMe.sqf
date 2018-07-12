@@ -57,6 +57,7 @@ SCORE_DAMAGE_BASE = ("SCORE_DAMAGE_BASE" call BIS_fnc_getParamValue);   // Extra
 SCORE_RANDOMBOX = 950;  // Cost to spin the box
 
 BULWARK_SUPPORTITEMS = [
+	[500,  "Fill Ammon",    "reconUAV"],
     [800,  "Recon UAV",     "reconUAV"],
     [1950, "Paratroopers",  "paraDrop"],
     [5430, "Missle CAS",    "airStrike"],
