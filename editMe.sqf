@@ -80,7 +80,8 @@ BULWARK_BUILDITEMS = [
     [2500, "Machine Gun",          "B_HMG_01_F",                        0],
     [2500, "Machine Gun (raised)", "B_HMG_01_high_F",                   0],
     [3000, "Small Bunker",         "Land_BagBunker_Small_F",            0],
-    [5000, "Guard Tower",          "Land_Cargo_Patrol_V3_F",          180]
+    [5000, "Guard Tower",          "Land_Cargo_Patrol_V3_F",          180],
+	[6000, "M2A1",          	   "B_MBT_01_cannon_F",                 0]
 ];
 
 /* Time of Day*/
