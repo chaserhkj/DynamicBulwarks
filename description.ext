@@ -166,7 +166,7 @@ class Params
 		title = "Time between rounds";
 		values[] = {0, 15, 30, 60, 90, 120, 180, 240, 300};
 		texts[] = {"0", "15 Seconds", "30 Seconds", "1 Minute", "1 Minute 30 Seconds", "2 Minutes", "3 Minutes", "4 Minutes", "5 Minutes"};
-		default = 30;
+		default = 60;
 	};
 
 	class BULWARK_MEDIKIT
@@ -174,7 +174,7 @@ class Params
 		title = "Medikits in Bulwark";
 		values[] = {0, 1, 3, 4, 5, 6, 7, 8};
 		texts[] = {"None", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"};
-		default = 3;
+		default = 6;
 	};
 
 	class PLAYER_STARTMAP
@@ -214,7 +214,7 @@ class Params
 		title = "Mission area size";
 		values[] = {50, 100, 150, 200, 250};
 		texts[] = {"(50m) Tiny", "(100m) Small", "(150m) Normal", "(200m) Large", "(250m) Huge"};
-		default = 150;
+		default = 200;
 	};
 
 	class BULWARK_MINSIZE
@@ -246,7 +246,7 @@ class Params
 		title = "Loot distribution";
 		values[] = {1, 2, 3, 4};
 		texts[] = {"Every building", "Every second building", "Every third building", "Every fourth building"};
-		default = 2;
+		default = 1;
 	};
 
 	class LOOT_ROOM_DISTRIBUTION
@@ -254,7 +254,7 @@ class Params
 		title = "Loot density";
 		values[] = {1, 2, 3, 4};
 		texts[] = {"Every location", "Every second location", "Every third location", "Every fourth location"};
-		default = 3;
+		default = 1;
 	};
 
 	class LOOT_SUPPLYDROP
@@ -352,7 +352,7 @@ class Params
 			"Medikit",
 			"First Aid Kit / Medikit"
 		};
-		default = 2;
+		default = 0;
 		function = "bis_fnc_paramReviveRequiredItems";
 	};
 
