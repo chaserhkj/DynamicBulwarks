@@ -16,5 +16,11 @@ _allLocations = [];
     _allLocations append [locationPosition _x];
 } forEach nearestLocations [[0,0,0], ["NameCity", "NameCityCapital", "Airport"], 40000];
 
+_customLocations = [];
+{
+    _customLocations append [locationPosition _x];
+} forEach nearestLocations [[0,0,0], ["Airport"], 40000];
+
 List_LocationMarkers = _zoneMarkers;
 List_AllCities = _allLocations;
+List_CustomLoc = _customLocations;
