@@ -26,6 +26,11 @@ if(player getVariable "killPoints" >= _shopPrice) then {
     objPurchase = false;
 };
 
+placeDis = 3;
+if (_shopName == "M2A1") then {
+    placeDis = 9;
+};
+
 sleep 0.1;
 if (objPurchase) then {
     closeDialog 0;
@@ -36,7 +41,7 @@ if (objPurchase) then {
     clearMagazineCargoGlobal shopVehic;
     clearBackpackCargoGlobal shopVehic;
 
-    shopVehic attachTo [ShopCaller, [0,3,0.02], "Pelvis"];
+    shopVehic attachTo [ShopCaller, [0,placeDis,0.02], "Pelvis"];
     /*
    sleep (1);
    _VecCurrentDir = getDir player;
