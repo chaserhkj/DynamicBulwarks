@@ -1,3 +1,4 @@
+AIStuckCheckArray = [];
 AIstuckcheck = 0;
 
 while {true} do {

@@ -30,7 +30,7 @@ class startBox_Dialog
         class startBox_buildButton: RscButton
         {
             idc = 1600;
-            text = "Purchase Building";
+            text = "Purchase Entity";
             x = 0.309 * safezoneW + safezoneX;
             y = 0.58 * safezoneH + safezoneY;
             w = 0.185 * safezoneW;
