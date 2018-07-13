@@ -18,6 +18,8 @@ publicVariable "bulwarkBox";
 publicVariable "PARATROOP_CLASS";
 publicVariable "BULWARK_SUPPORTITEMS";
 publicVariable "BULWARK_BUILDITEMS";
+publicVariable "BULWARK_MANPOWER";
+publicVariable "BULWARK_VEHICLES";
 publicVariable "PLAYER_STARTWEAPON";
 publicVariable "PLAYER_STARTMAP";
 publicVariable "PLAYER_STARTNVG";

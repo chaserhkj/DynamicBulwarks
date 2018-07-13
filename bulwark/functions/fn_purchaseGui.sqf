@@ -22,3 +22,13 @@ _ctrl = (findDisplay 9999) displayCtrl 1501;
 {
     _ctrl lbAdd format [_listFormat, _x select 0, _x select 1],;
 } forEach BULWARK_SUPPORTITEMS;
+
+_ctrl = (findDisplay 9999) displayCtrl 1502;
+{
+    _ctrl lbAdd format [_listFormat, _x select 0, _x select 1],;
+} forEach BULWARK_MANPOWER;
+
+_ctrl = (findDisplay 9999) displayCtrl 1503;
+{
+    _ctrl lbAdd format [_listFormat, _x select 0, _x select 1],;
+} forEach BULWARK_VEHICLES;

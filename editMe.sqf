@@ -82,24 +82,32 @@ BULWARK_BUILDITEMS = [
     [2500, "Machine Gun",          "B_HMG_01_F",                        0],
     [2500, "Machine Gun (raised)", "B_HMG_01_high_F",                   0],
     [3000, "Small Bunker",         "Land_BagBunker_Small_F",            0],
-    [5000, "Guard Tower",          "Land_Cargo_Patrol_V3_F",          180],
-	[500,  "Crewman",              "Infantry",                           0,     "B_crew_F"],
-    [800,  "Rifleman",             "Infantry",                           0,     "B_Soldier_F"],
-	[800,  "Rifleman (AT)",        "Infantry",                           0,     "B_soldier_LAT_F"],
-	[800,  "Autorifleman",         "Infantry",                           0,     "B_soldier_AR_F"],
-	[800,  "Engineer",             "Infantry",                           0,     "B_engineer_F"],
-	[800,  "Sharpshooter",         "Infantry",                           0,     "B_Sharpshooter_F"],
-	[1000, "HeavyGunner",          "Infantry",                           0,     "B_HeavyGunner_F"],
-	[1000, "Repair Specialist",    "Infantry",                           0,     "B_soldier_repair_F"],
-	[1000, "Missile Specialist (AT)",         "Infantry",                0,     "B_soldier_AT_F"],
-	[1000, "Sniper",               "Infantry",                           0,     "B_sniper_F"],
-	[4000, "Hunter HMG",           "Vehicle",                            0,     "B_MRAP_01_hmg_F"],
-	[4000, "Prowler AT",           "Vehicle",                            0,     "B_LSV_01_AT_F"],
-	[7000, "IFV-6c Panther",       "Vehicle",                            0,     "B_APC_Tracked_01_rcws_F"],
-	[8000, "Rhino MGS",            "Vehicle",                            0,     "B_AFV_Wheeled_01_cannon_F"],
-	[10000, "Rhino MGS UP",        "Vehicle",                            0,     "B_AFV_Wheeled_01_up_cannon_F"],
-	[13000, "M2A1 Slammer",        "Vehicle",                            0,     "B_MBT_01_cannon_F"],
-	[15000, "M2A1 Slammer UP",     "Vehicle",                            0,     "B_MBT_01_TUSK_F"]
+    [5000, "Guard Tower",          "Land_Cargo_Patrol_V3_F",          180]
+];
+
+/* Price - Display Name - Class Name */
+BULWARK_MANPOWER = [
+	[500,  "Crewman",               "B_crew_F"],
+    [800,  "Rifleman",              "B_Soldier_F"],
+	[800,  "Rifleman (AT)",         "B_soldier_LAT_F"],
+	[800,  "Autorifleman",          "B_soldier_AR_F"],
+	[800,  "Engineer",              "B_engineer_F"],
+	[800,  "Sharpshooter",          "B_Sharpshooter_F"],
+	[1000, "HeavyGunner",           "B_HeavyGunner_F"],
+	[1000, "Repair Specialist",     "B_soldier_repair_F"],
+	[1000, "Missile Specialist (AT)",     "B_soldier_AT_F"],
+	[1000, "Sniper",                "B_sniper_F"]
+];
+
+/* Price - Display Name - Class Name */
+BULWARK_VEHICLES = [
+	[4000, "Hunter HMG",         "B_MRAP_01_hmg_F"],
+	[4000, "Prowler AT",         "B_LSV_01_AT_F"],
+	[7000, "IFV-6c Panther",     "B_APC_Tracked_01_rcws_F"],
+	[8000, "Rhino MGS",          "B_AFV_Wheeled_01_cannon_F"],
+	[10000, "Rhino MGS UP",      "B_AFV_Wheeled_01_up_cannon_F"],
+	[13000, "M2A1 Slammer",      "B_MBT_01_cannon_F"],
+	[15000, "M2A1 Slammer UP",   "B_MBT_01_TUSK_F"]
 ];
 
 /* Time of Day*/

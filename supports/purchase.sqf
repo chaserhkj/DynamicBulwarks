@@ -7,7 +7,6 @@
 **/
 
 _index = lbCurSel 1501;
-shopVehic = objNull;
 
 _shopItem = BULWARK_SUPPORTITEMS select _index;
 _shopPrice = (_shopItem) select 0;
