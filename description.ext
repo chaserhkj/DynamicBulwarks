@@ -329,6 +329,30 @@ class Params
 		default = 0;
 	};
 
+    class SCORE_SPLIT_FACTOR
+    {
+        title = "Factor of friendly granted kill points distributed to players";
+        values[] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        texts[] = {"None", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"};
+        default = 50;
+    };
+
+    class SCORE_WAVE_REWARD
+    {
+        title = "Reward kill points per wave per wave count";
+        values[] = {0, 25, 50, 75, 100, 125, 150, 175, 200};
+        texts[] = {"0", "25", "50", "75", "100", "125", "150", "175", "200"}; 
+        default = 100;
+    };
+
+    class SCORE_PRICE_FACTOR
+    {
+        title = "Price factor for purchases";
+        values[] = {25, 50, 75, 100, 125, 150, 175, 200};
+        texts[] = {"25%", "50%", "75%", "100%", "125%", "150%", "175%", "200%"};
+        default = 100;
+    };
+
 	class REVIVE_LABEL
 	{
 		title = "===== Revive Settings ======";

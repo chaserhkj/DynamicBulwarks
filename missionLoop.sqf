@@ -127,6 +127,10 @@ while {runMissionLoop} do {
 	};
 
 	if(missionFailure) exitWith {};
+    
+    {
+        [_x, attkWave * SCORE_WAVE_REWARD] call killPoints_fnc_add;
+    } foreach _allHPs;
 
 	["TaskSucceeded",["Complete","Wave " + str attkWave + " complete!"]] remoteExec ["BIS_fnc_showNotification", 0];
 	[0] remoteExec ["setPlayerRespawnTime", 0];
