@@ -151,5 +151,13 @@ while {runMissionLoop} do {
 		};
 	} foreach allPlayers;
 
+    if ((attkWave == 11) or (attkWave == 21)) then {
+        _downTime = floor (_downTime / 2);
+    };
+
+    if (attkWave == 31) then {
+        _downTime = 1;
+    };
+
 	sleep _downTime;
 };
