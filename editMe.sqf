@@ -80,9 +80,10 @@ BULWARK_BUILDITEMS = [
     [floor (SCORE_PRICE_FACTOR * 800),  "Storage box small",    "Box_NATO_Support_F",                0],
     [floor (SCORE_PRICE_FACTOR * 1000), "Hallogen Lamp",        "Land_LampHalogen_F",              180],
     [floor (SCORE_PRICE_FACTOR * 1000), "Double H Barrier",     "Land_HBarrierWall4_F",              0],
-    [floor (SCORE_PRICE_FACTOR * 1200), "Storage box large",    "Box_NATO_AmmoVeh_F",                0],
-    [floor (SCORE_PRICE_FACTOR * 2500), "Machine Gun",          "B_HMG_01_F",                        0],
-    [floor (SCORE_PRICE_FACTOR * 2500), "Machine Gun (raised)", "B_HMG_01_high_F",                   0],
+    [floor (SCORE_PRICE_FACTOR * 2000), "Storage box large",    "Box_NATO_AmmoVeh_F",                0],
+    [floor (SCORE_PRICE_FACTOR * 3000), "Machine Gun (raised)", "B_HMG_01_high_F",                   0],
+	[floor (SCORE_PRICE_FACTOR * 4000), "GMG (raised)",			"B_GMG_01_high_F",                   0],
+	[floor (SCORE_PRICE_FACTOR * 3500), "Static AT Launcher",   "B_static_AT_F",                     0],
     [floor (SCORE_PRICE_FACTOR * 3000), "Small Bunker",         "Land_BagBunker_Small_F",            0],
     [floor (SCORE_PRICE_FACTOR * 5000), "Guard Tower",          "Land_Cargo_Patrol_V3_F",          180]
 ];
@@ -106,10 +107,12 @@ BULWARK_VEHICLES = [
 	[floor (SCORE_PRICE_FACTOR * 4000), "Hunter HMG",         "B_MRAP_01_hmg_F"],
 	[floor (SCORE_PRICE_FACTOR * 4000), "Prowler AT",         "B_LSV_01_AT_F"],
 	[floor (SCORE_PRICE_FACTOR * 7000), "IFV-6c Panther",     "B_APC_Tracked_01_rcws_F"],
+	[floor (SCORE_PRICE_FACTOR * 7000), "Bobcat",		      "B_APC_Tracked_01_CRV_F"],
 	[floor (SCORE_PRICE_FACTOR * 8000), "Rhino MGS",          "B_AFV_Wheeled_01_cannon_F"],
 	[floor (SCORE_PRICE_FACTOR * 10000), "Rhino MGS UP",      "B_AFV_Wheeled_01_up_cannon_F"],
 	[floor (SCORE_PRICE_FACTOR * 13000), "M2A1 Slammer",      "B_MBT_01_cannon_F"],
-	[floor (SCORE_PRICE_FACTOR * 15000), "M2A1 Slammer UP",   "B_MBT_01_TUSK_F"]
+	[floor (SCORE_PRICE_FACTOR * 15000), "M2A1 Slammer UP",   "B_MBT_01_TUSK_F"],
+	[floor (SCORE_PRICE_FACTOR * 20000), "Blackroot",   	  "B_Heli_Attack_01_dynamicLoadout_F"]
 ];
 
 /* Time of Day*/
