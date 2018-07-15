@@ -128,8 +128,14 @@ while {runMissionLoop} do {
 
 	if(missionFailure) exitWith {};
     
+    _rewardFac = attkWave;
+    if (_rewardFac > 20) then {
+        _rewardFac = 20;
+    };
+
+    _reward = _rewardFac * SCORE_WAVE_REWARD / (count _allHPs);
     {
-        [_x, attkWave * SCORE_WAVE_REWARD] call killPoints_fnc_add;
+        [_x, _reward] call killPoints_fnc_add;
     } foreach _allHPs;
 
 	["TaskSucceeded",["Complete","Wave " + str attkWave + " complete!"]] remoteExec ["BIS_fnc_showNotification", 0];
