@@ -35,7 +35,17 @@ if (attkWave > 12) then {
 	};
 };
 
-if ((attkWave > 15) and (attkWave % 4 == 0)) then {
+if ((attkWave > 15) and (attkWave < 25) and (attkWave % 4 == 0)) then {
+	_spwnVec = execVM "hostiles\spawnVehicle.sqf";
+	waitUntil {scriptDone _spwnVec};
+};
+
+if ((attkWave > 24) and (attkWave < 33) and (attkWave % 2 == 0)) then {
+	_spwnVec = execVM "hostiles\spawnVehicle.sqf";
+	waitUntil {scriptDone _spwnVec};
+};
+
+if (attkWave > 32) then {
 	_spwnVec = execVM "hostiles\spawnVehicle.sqf";
 	waitUntil {scriptDone _spwnVec};
 };
