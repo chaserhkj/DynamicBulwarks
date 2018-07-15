@@ -32,7 +32,12 @@ clearBackpackCargoGlobal bulwarkBox;
 if(BULWARK_MEDIKITS > 0) then {
 	bulwarkBox addItemCargoGlobal ["Medikit", BULWARK_MEDIKITS];
 };
+
+bulwarkBox setVariable ["BankDeposit", 0, true];
+
 [bulwarkBox, ["<t color='#00ffff'>" + "Pickup", "bulwark\moveBox.sqf","",1,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
+[bulwarkBox, ["<t color='#ff00ff'>" + "Deposit", "bulwark\deposit.sqf","",1,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
+[bulwarkBox, ["<t color='#ff00ff'>" + "Withdraw", "bulwark\withdraw.sqf","",1,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
 [bulwarkBox, ["<t color='#00ff00'>" + "Shop", "[] spawn bulwark_fnc_purchaseGui; ShopCaller = _this select 1","",1.5,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
 
 
